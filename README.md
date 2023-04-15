@@ -1,5 +1,5 @@
 # SQLite-Library-Database
-Project was last updated on: 16 October 2022
+Project was last updated on: 13 October 2022
 
 **This was a university project for a relational database management unit**
 
