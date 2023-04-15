@@ -1,7 +1,7 @@
 # SQLite-Library-Database
 Project was last updated on: 13 October 2022
 
-**This was a university project for a relational database management unit**
+**This was a university project for a relational database management unit.**
 
 I did not upload the actual database and project outline to avoid any potential violation of academic conduct. Even though I am unsure of the specifics, I didn't want to risk it. The code used in this project received a grade of above 85%.
 
@@ -10,7 +10,7 @@ I did not upload the actual database and project outline to avoid any potential 
 The context of the project was to assist a library in migrating their database from an Excel spreadsheet to SQLite, as the existing database was becoming unwieldy. It involved identifying keys, setting up referential integrity constraints, implementing checks, making triggers and views to ensure the smooth and accurate functioning of the database.
 
 
-The database consisted of four tables: 
+The database consists of four tables: 
 > BookEdition: 5 columns "ISBN" (text), "title" (text), "author" (text), "publicationDate" (integer), and "genre" (text). These columns are to store information about books, such as their ISBN number, title, author, publication date, and genre where each row of BookEdition is uniquely identified by its ISBN.
 
 > BookCopy: 3 columns "ISBN" (text), "copyNumber" (integer), and "daysLoaned" (integer). These columns are to store information about copies of books, such as their ISBN number, copy number (which would indicate which copy of one book is being borrowed), and the cumulative number of days the copy has been loaned out. The table BookEdition contains many more books than the library can possibly buy, and so SCML may have zero, one or more actual copies of each of the books listed in BookEdition.
